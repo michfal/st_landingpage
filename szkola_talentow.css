@@ -17,15 +17,22 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: inline-block;
-    position: relative;
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* align-content: flex-start; */
 }
-
 
 .logo {
     width: 30%;
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, -50%);
+    /* align-self: center; */
+}
+
+a {
+    text-align: center;
+    margin: auto;
 }
