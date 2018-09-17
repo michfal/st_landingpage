@@ -10,7 +10,11 @@ body, html {
 body {
     font-family: lato;
 }
-/*hero image================================================*/
+
+/*----------------------------*\
+#top_image
+\*----------------------------*/
+
 .top_image {
     background-image: url(svg/website_top_bg.svg);
     min-height: 100%;
@@ -24,27 +28,22 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
-
 .logo {
     width: 30%;
     min-width: 300px;
 }
-li {
-    list-style-type: none;
-}
-a {
-    color: white;
-    font-size: 1.25rem;
-}
+
 .contact_btn {
     text-align: center;
     align-self: flex-start;
     width: 100%;
 }
-/*top image hud=====*/
+
+
+
 .top_image_hud {
     width: 100%;
-    min-height: 200px;
+    min-height: 300px;
     background-color: rgba(45, 40, 80, 0.8);
     align-self: flex-end;
     bottom: 0%;
@@ -55,7 +54,6 @@ a {
     justify-content: center;
     flex-wrap: wrap;
 }
-
 .section_link_container {
     height: 80px;
     width: 250px;
@@ -66,5 +64,17 @@ a {
 }
 .section_icon {
     height: 70px;
-    margin: 20px;
+    margin: 10px;
 }
+
+li {
+    list-style-type: none;
+}
+a {
+    color: white;
+    font-size: 1.25rem;
+}
+
+/*----------------------------*\
+#intro
+\*----------------------------*/
