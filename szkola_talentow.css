@@ -17,8 +17,6 @@ body {
 
 .top_image {
     background-image: url(svg/website_top_bg.svg);
-    min-height: 100%;
-    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -28,6 +26,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .logo {
     width: 30%;
     min-width: 300px;
@@ -38,8 +37,6 @@ body {
     align-self: flex-start;
     width: 100%;
 }
-
-
 
 .top_image_hud {
     width: 100%;
@@ -54,6 +51,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .section_link_container {
     height: 80px;
     width: 250px;
@@ -62,19 +60,26 @@ body {
     align-items: center;
     /* border: 1px solid red; */
 }
+
 .section_icon {
     height: 70px;
     margin: 10px;
 }
 
-li {
-    list-style-type: none;
-}
 a {
     color: white;
     font-size: 1.25rem;
 }
 
 /*----------------------------*\
-#intro
+#sections
 \*----------------------------*/
+
+.section--big {
+    min-height: 100%;
+    width: 100%;
+}
+
+.section--grey {
+    background-color: #F7F7FF;
+}
