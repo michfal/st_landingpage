@@ -108,9 +108,9 @@ a {
     border-radius: 40px;
 }
 
-/* .title--width--small {
-
-} */
+.title--width--small {
+    width: 416px;
+}
 
 .title--width--regular {
     width: 560px;
