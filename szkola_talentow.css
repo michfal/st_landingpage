@@ -11,6 +11,19 @@ body {
     font-family: lato;
 }
 
+/* #egz--gim {
+    border: 1px solid red;
+    background-color: grey;
+}
+#egz--8--klasisty {
+    border: 1px solid red;
+    background-color: bisque;
+}
+#przyg--do--konk {
+    border: 1px solid red;
+    background-color: bisque;
+} */
+
 /*----------------------------*\
 #top_image
 \*----------------------------*/
@@ -78,8 +91,64 @@ a {
 .section--big {
     min-height: 100%;
     width: 100%;
+    
+    /* padding-top: 1%; */
 }
 
 .section--grey {
     background-color: #F7F7FF;
+}
+/*----------------------------*\
+#section titles
+\*----------------------------*/
+
+.title--bar {
+    padding: 43px 0px 8px 0px;
+    
+    border-radius: 40px;
+}
+
+/* .title--width--small {
+
+} */
+
+.title--width--regular {
+    width: 560px;
+}
+
+/* .title--width--big {
+
+} */
+
+.title--color--blue {
+    background-color: #5AEDE8;
+}
+
+.title--color--green {
+    background-color: #06D6A0;
+}
+
+.title--color--orange {
+    background-color: #ED6A5A;
+}
+
+
+.title--text {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* font-size: 30pt; */
+}
+
+
+.title--position--left {
+    margin-top: 147px;
+    margin-left: 21%;
+    float: left;
+}
+.title--position--right {
+    margin-top: 147px;
+    margin-right: 21%;
+    float: right;
 }
