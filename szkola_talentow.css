@@ -104,7 +104,6 @@ a {
 
 .title--bar {
     padding: 43px 0px 8px 0px;
-    
     border-radius: 40px;
 }
 
@@ -143,12 +142,88 @@ a {
 
 
 .title--position--left {
-    margin-top: 147px;
     margin-left: 21%;
     float: left;
 }
 .title--position--right {
-    margin-top: 147px;
     margin-right: 21%;
     float: right;
 }
+
+.title--position--top--space {
+    margin-top: 147px;
+}
+
+
+/*----------------------------*\
+#paragraphs
+\*----------------------------*/
+
+/* .section--text {
+
+} */
+.section--text--color {
+    color: #8A889A;
+}
+
+.section--text {
+    width: 534px;
+    float: left;
+}
+
+
+/*----------------------------*\
+#intro section
+\*----------------------------*/
+
+.section--intro {
+    min-height: 80%;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-wrap: nowrap;
+}
+
+
+
+.intro--title--container {
+    width: 100%;
+    /* height: 80px; */
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.intro--title--conjunction {
+    align-self: center;
+    margin: 0px 40px 0px 30px;
+}
+
+
+.intro--header {
+    margin: 150px 0px 40px 0px;
+}
+
+.intro--header--text--formatting {
+    font-weight: 500;
+    font-size: 30pt;
+}
+
+
+
+.intro--text {
+    margin: 30px 10px 10px 10px;
+}
+
+.intro--text--formatting {
+    font-size: 17pt;
+    line-height: 250%;
+    letter-spacing: 1.5px;
+}
+
+
+
