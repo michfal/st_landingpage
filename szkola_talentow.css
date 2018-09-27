@@ -143,10 +143,12 @@ a {
 
 .title--position--left {
     margin-left: 21%;
+    margin-right: auto;
     float: left;
 }
 .title--position--right {
     margin-right: 21%;
+    margin-left: auto;
     float: right;
 }
 
@@ -166,11 +168,27 @@ a {
     color: #8A889A;
 }
 
-.section--text {
-    width: 534px;
-    float: left;
+.section--text--formatting {
+    font-size: 15pt;
+    line-height: 250%;
 }
 
+
+.section--text--position {
+    margin-top: 30px;
+    width: 534px;
+}
+
+.section--text--position--left {
+    float: left;
+    margin-left: 23%;
+}
+
+.section--text--position--right {
+    float: right;
+    margin-right: 23%;
+    text-align: right;
+}
 
 /*----------------------------*\
 #intro section
