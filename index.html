@@ -10,46 +10,86 @@
     
 </head>
 <body>
-    <section class="top_image section--big">
+
+    <div class="navbar">
+
+        <a href="#home" class="section--link--container navbar--link--container navbar--text" onclick="smoothScroll('#home', 1000);">
+            <img class="home--icon" src="svg/icons/home_icon.svg" alt="">
+        </a>
+        
+        <a href="#egz--gim" class="section--link--container navbar--link--container navbar--text" onclick="smoothScroll('#egz--gim', 1000);">
+            Egzamin
+            Gimnazjalny
+        </a>
+        
+        <a href="#egz--8--klasisty" class="section--link--container navbar--link--container navbar--text" onclick="smoothScroll('#egz--8--klasisty', 1000);">
+            Egzamin
+            <br>8-klasisty
+        </a>
+        
+        <a href="#egz--maturalny" class="section--link--container navbar--link--container navbar--text" onclick="smoothScroll('#egz--maturalny', 1000);">
+            Egzamin
+            Maturalny
+        </a>
+        
+        <a href="#przyg--do--konk" class="section--link--container navbar--link--container navbar--text" onclick="smoothScroll('#przyg--do--konk', 1000);">
+            Przygotowanie
+            do konkursów
+        </a>
+        
+        <a href="#oprac--bierz--mat" class="section--link--container navbar--link--container navbar--text" onclick="smoothScroll('#oprac--bierz--mat', 1000);">
+            Opracowanie
+            Bieżącego
+            Materiału
+        </a>
+
+        <a href="#contact" class="section--link--container navbar--link--container navbar--text" onclick="smoothScroll('#contact', 1000);">
+            Kontakt
+        </a>
+
+
+
+    </div>
+
+    <section id="home" class="top_image section--big" >
     
-        <div class="contact_btn">
-            <a  href="">KONTAKT</a>
+        <div class="contact_btn " onclick="smoothScroll('#contact', 1000);">
+            <a  href="#contact">KONTAKT</a>
 
         </div>
 
         <div class="logo">
             <img src="svg/st_logo.svg" alt="">
-
         </div>
 
         
         <div class="top_image_hud">
 
-            <a href="#egz--gim"class="section_link_container" onclick="smoothScroll('#egz--gim', 1000);">
+            <a href="#egz--gim"class="section--link--container" onclick="smoothScroll('#egz--gim', 1000);">
                 <img class="section_icon" src="svg/icons/school_icon.svg" alt="">
                 Egzamin
                 <br> Gimnazjalny
             </a>
 
-            <a href="#egz--8--klasisty" class="section_link_container" onclick="smoothScroll('#egz--8--klasisty', 1000);">
+            <a href="#egz--8--klasisty" class="section--link--container" onclick="smoothScroll('#egz--8--klasisty', 1000);">
                 <img class="section_icon" src="svg/icons/teacher_icon.svg" alt="">
                 Egzamin
                  <br> 8-klasisty
             </a>
 
-            <a href="#egz--maturalny" class="section_link_container" onclick="smoothScroll('#egz--maturalny', 1000);">
+            <a href="#egz--maturalny" class="section--link--container" onclick="smoothScroll('#egz--maturalny', 1000);">
                 <img class="section_icon" src="svg/icons/hat_icon.svg" alt="">
                 Egzamin
                 <br> Maturalny
             </a>
 
-            <a href="#przyg--do--konk" class="section_link_container" onclick="smoothScroll('#przyg--do--konk', 1000);">
+            <a href="#przyg--do--konk" class="section--link--container" onclick="smoothScroll('#przyg--do--konk', 1000);">
                 <img class="section_icon" src="svg/icons/trophy_icon.svg" alt="">
                 Przygotowanie
                 <br> do konkursów
             </a>
 
-            <a href="#oprac--bierz--mat" class="section_link_container" onclick="smoothScroll('#oprac--bierz--mat', 1000);">
+            <a href="#oprac--bierz--mat" class="section--link--container" onclick="smoothScroll('#oprac--bierz--mat', 1000);">
                 <img class="section_icon" src="svg/icons/checklist_icon.svg" alt="">
                 Opracowanie
                 <br> Bieżącego
@@ -464,7 +504,7 @@
     </section>
 
     
-    <section class="section--kontakt">
+    <section class="section--kontakt" id="contact">
         <h2>Kontakt</h2>
     
     </section>
