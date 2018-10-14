@@ -454,7 +454,7 @@ h3 {
     height: 30px;
     margin: auto;
     margin-top: 20px;
-    padding-left: 100px;
+    /* padding-left: 50px; */
     display: flex;
     align-items: center;
     
