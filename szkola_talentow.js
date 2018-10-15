@@ -48,7 +48,7 @@ var topImage = document.querySelector('.top_image');
 window.addEventListener('scroll', function () {
     var scrollYdist = window.pageYOffset;
     var topHeight = topImage.clientHeight;
-    console.log(scrollYdist)
+    
     if (topHeight < scrollYdist) {
         navbar.style.top = '0px';
     }
