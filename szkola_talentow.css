@@ -301,8 +301,8 @@ h3 {
 }
 
 .learning--plan--point--number {
-    height: 80px;
-    width: 80px;
+    height: 5rem;
+    width: 5rem;
     /* padding: 10px; */
     float: left;
 }
