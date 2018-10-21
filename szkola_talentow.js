@@ -50,9 +50,9 @@ window.addEventListener('scroll', function () {
     var topHeight = topImage.clientHeight;
     
     if (topHeight < scrollYdist) {
-        navbar.style.top = '0px';
+        navbar.style.background = '#476885';
     }
     else{
-        navbar.style.top = '-100px';
+        navbar.style.background = 'rgba(45, 40, 80, 0.8)';
     }    
 })
