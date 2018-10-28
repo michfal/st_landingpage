@@ -8,6 +8,7 @@ function smoothScroll(target, duration) {
     var targetPosition = target.getBoundingClientRect().top;
     var startPosition = window.pageYOffset;
     var startTime = null;
+    console.log(target)
 
     function animation(currentTime) {
         if(startTime === null) startTime = currentTime;
@@ -35,7 +36,7 @@ var opracBierzMat = document.querySelector('#obm--button');
 // });
 
 /*----------------------------*\
-#smooth scroll
+#navbar color change
 \*----------------------------*/
 
 var navbar = document.querySelector('.navbar');
@@ -54,5 +55,28 @@ window.addEventListener('scroll', function () {
     }
     else{
         navbar.style.background = 'rgba(45, 40, 80, 0.8)';
-    }    
+    }
+    //to chowa pasek przy skrolowaniu
+    // navbarLinks.style.display = "none";
 })
+
+/*----------------------------*\
+#hamburger menu
+\*----------------------------*/
+
+var hamburgerMenu = document.querySelector('.burger--icon')
+var navbarLinks = document.querySelector('.navbar--links--container')
+
+var burgerClickCount = 0;
+
+function menuUnwrap() {
+
+    if (burgerClickCount == 0) {
+        burgerClickCount = 1
+        navbarLinks.style.display = "flex";
+    } else if (burgerClickCount == 1){
+        burgerClickCount = 0
+        navbarLinks.style.display = "none";
+    }
+
+}
