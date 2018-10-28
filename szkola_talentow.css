@@ -258,8 +258,13 @@ h3 {
     /* background-color: #06D6A0; */
     display: flex;
     justify-content: center;
+    transition: all 2s;
 
 }
+
+/* .navbar--links--visibility {
+    display: flex;
+} */
 
 
 .navbar--link--parts--container {
@@ -305,14 +310,18 @@ h3 {
 @media screen and (max-width: 800px) {
     .navbar--links--container {
         flex-direction: column;
-        
         align-items: center;
-    }
+        display: none;
+        }
+    } 
 
-@media screen and (max-width: 800px) {
+ @media screen and (max-width: 800px) {
     .navbar--burger--link--container {
         display: flex;
+        }
     }
+
+
 
 
 /*----------------------------*\
@@ -387,6 +396,12 @@ h3 {
     /* margin-left: 20px; */
     font-size: 1.5rem;
 }
+
+ @media screen and (max-width: 800px) {
+    .learning--plan {
+        display: none;
+        }
+    }
 
 /*----------------------------*\
 #intro section
