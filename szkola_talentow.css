@@ -143,6 +143,7 @@ h3 {
 @media screen and (max-width: 800px) {
     .section--text--formatting {
         width: 60%;
+        min-width: 18.75rem;
         text-align: center;
     }
 }
@@ -157,8 +158,6 @@ h3 {
     min-height: 100%;
     width: 100%;
     float: left;
-    
-    /* padding-top: 1%; */
 }
 
 .section--grey {
@@ -185,51 +184,7 @@ h3 {
     width: 30%;
     min-width: 30rem;
 }
-/*
-.contact_btn {
-    text-align: center;
-    align-self: flex-start;
-    width: 100%;
-    margin-top: 1.875rem;
-    
-}
 
-.top_image_hud {
-    width: 100%;
-    min-height: 30rem;
-    background-color: rgba(45, 40, 80, 0.8);
-    align-self: flex-end;
-    bottom: 0%;
-    margin: none;
-    display: flex; 
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-}
-
-.section--link--container {
-    height: 5rem;
-    width: 20rem;
-    font-size: 1.6rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-}
-
-.section_icon {
-    height: 6rem;
-    margin: 1rem;
-}
-
-@media (max-width: 700px) {
-    .section_icon {
-        display: none;
-    }
-}
-*/
 
 /*----------------------------*\
 #navbar
@@ -262,9 +217,6 @@ h3 {
 
 }
 
-/* .navbar--links--visibility {
-    display: flex;
-} */
 
 
 .navbar--link--parts--container {
@@ -322,59 +274,67 @@ h3 {
     }
 
 
-
-
 /*----------------------------*\
 #learning plan
 \*----------------------------*/
 
 .learning--plan--header {
     width: 60%;
+    min-width: 250px;
     /* min-width: 700px; */
     margin: 4% 20% 0% 20%;
     float: left;
-    padding-bottom: 1rem; 
+    padding-bottom: 1rem;
     border-bottom: 0.2rem solid #8A889A;
 }
 
 
 
 .learning--plan {
+    box-sizing: border-box;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 2%;
-    /* border: 1px solid red; */
+    margin-bottom: 2rem;;
+    /* border: 1px solid green; */
+    padding: 0rem 2rem 0rem 2rem;
 }
 
 .learning--plan--container {
+    box-sizing: border-box;
     width: 49rem;
-    /* width: 437px; */
-    /* width: 27%; */
     height: 30%;
-    /* background-color: #8A889A; */
-    /* border: 1px solid red; */
+    padding-top: 2rem;
 }
+
 
 
 .learning--plan--point {
     width: 50%;
+    min-width: 200px;
     height: 5rem;
-    /* background-color: green;  */
     float: left;
-    padding-top: 2rem;
+    margin-top: 2rem;
     display: flex;
     align-items: center;
 }
 
-.learning--plan--point--2ndrow {
+
+
+.learning--plan--point:nth-child(even) {
     float: right;
 }
 
-.learning--plan--point--offset {
-    margin-top: 1.875rem;
-    
+.learning--plan--point:nth-child(2) {
+    /* margin-top: 1.875rem; */
+    padding-top: 2rem; 
+     /* box-sizing: border-box;
+    border: 1px solid red; */
+}
+
+.learning--plan--point:nth-child(-n+2) {
+    margin-top: 0rem; 
 }
 
 .learning--plan--point--number {
@@ -397,9 +357,23 @@ h3 {
     font-size: 1.5rem;
 }
 
- @media screen and (max-width: 800px) {
-    .learning--plan {
-        display: none;
+
+
+@media screen and (max-width: 400px) {
+    .learning--plan--container {
+        width: 200px;
+        margin: auto;
+        padding-top: 0rem;
+        }
+    .learning--plan--point:nth-child(1) {
+        margin-top: 2rem; 
+        }
+    }
+
+
+@media screen and (max-width: 979px) {
+    .learning--plan--container:nth-last-child(1) {
+        padding-top: 0rem;
         }
     }
 
@@ -456,7 +430,6 @@ h3 {
     line-height: 250%;
     letter-spacing: 0.0938rem;
 }
-
 
 
 
