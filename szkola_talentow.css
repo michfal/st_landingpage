@@ -142,9 +142,15 @@ h3 {
 }
 @media screen and (max-width: 800px) {
     .section--text--formatting {
-        width: 60%;
+        font-size: 1.5rem;
+        line-height: 200%;
+    }
+    .section--text--position {
+        width: 80%;
         min-width: 18.75rem;
         text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
