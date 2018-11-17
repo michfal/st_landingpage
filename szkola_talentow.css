@@ -23,6 +23,12 @@ h3 {
     font-weight: 500;
 }
 
+@media screen and (max-width: 800px) {
+    h3 {
+        font-size: 2rem;
+    }
+}
+
 /* #egz--gim {
     border: 1px solid red;
     background-color: grey;
@@ -100,13 +106,21 @@ h3 {
 }
 
 @media screen and (max-width: 800px) {
-    .title--position--right, .title--position--left {
+    .title--position--right, .title--position--left  {
         float: none;
         margin: auto;
         margin-top: 7rem;
         width: 60%;
         min-width: 30rem;
+        
     }
+    .title--text {
+        font-size: 1.7rem;
+    }
+    .title--bar {
+    padding: 3rem 1rem 1rem 1rem;
+    }
+
 }
 
 /*----------------------------*\
@@ -382,6 +396,15 @@ h3 {
         padding-top: 0rem;
         }
     }
+
+
+@media screen and (max-width: 800px) {
+    .section--text--formatting {
+        font-size: 1.5rem;
+        line-height: 200%;
+    }
+
+}
 
 /*----------------------------*\
 #intro section
