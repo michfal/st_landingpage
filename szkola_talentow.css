@@ -440,16 +440,24 @@ h3 {
 
 @media (max-width: 900px) {
     .intro--title--conjunction {
-        margin: none;
+        /* margin: none; */
         width: 100%;
         }
     } 
 
 @media screen and (max-width: 800px) {
     .intro--text--formatting {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         line-height: 200%;
     }
+    
+    .intro--header--text--formatting {
+    font-size: 3rem;
+    }
+
+    .intro--title--conjunction {
+        margin: 1rem 0rem 1rem 0rem;
+        }
 
 }
 
