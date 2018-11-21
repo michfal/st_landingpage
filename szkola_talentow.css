@@ -1,8 +1,8 @@
 * {
     margin: 0rem;
     text-decoration: none;
-    /* border: 1px solid red; */
 }
+
 body, html {
     height: 100%;
     font-size: 62.5%;
@@ -37,18 +37,15 @@ h3 {
 #section titles
 \*----------------------------*/
 
-/* .title--container {
-    width: 100%;
-    float: left;
-} */
-
 .title--bar {
     padding: 3rem 0rem 1rem 0rem;
     border-radius: 4rem;
 }
 
 .title--width--small {
-    width: 40rem;
+    width: 30%;
+    margin: 0rem 2rem 0rem 2rem;
+    min-width: 29rem;
 }
 
 .title--width--regular {
@@ -100,12 +97,13 @@ h3 {
         margin: auto;
         margin-top: 7rem;
         width: 60%;
-        min-width: 30rem;
-        
+        min-width: 27rem;   
     }
+
     .title--text {
         font-size: 1.7rem;
     }
+
     .title--bar {
     padding: 3rem 1rem 1rem 1rem;
     }
@@ -129,7 +127,6 @@ h3 {
 
 .section--text--position {
     margin-top: 1.875rem;
-    /* width: 534px; */
     width: 34%;
 }
 
@@ -155,8 +152,10 @@ h3 {
         margin-left: 10%;
         margin-right: 10%;
     }
+    .title--width--small {
+    min-width: 23rem;
+    }
 }
-
 
 
 /*----------------------------*\
@@ -202,7 +201,6 @@ h3 {
 .navbar {
     min-height: 6rem;
     width: 100%;
-    /* background-color: #476885; */
     background-color: rgba(45, 40, 80, 0.8);
     position: fixed;
     transition: all 0.5s;
@@ -217,9 +215,8 @@ h3 {
 
 .navbar--links--container {
     margin: auto;
-    /* float: left; */
+
     width: 70%;
-    /* background-color: #06D6A0; */
     display: flex;
     justify-content: center;
     transition: all 2s;
@@ -228,16 +225,14 @@ h3 {
 
 
 .navbar--link--parts--container {
-    /* width: 10rem; */
     width: 15%;
     min-width: 9rem;
     height: 6rem;
-    /* background-color: #5AEDE8; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0rem 0.625rem 0rem 0.625rem;
-    /* float: left; */
+
 }
 
 
@@ -251,7 +246,6 @@ h3 {
 
 .home--icon {
     height: 3.5rem;
-    /* margin-right: 90%; */
 }
 
 
@@ -404,8 +398,6 @@ h3 {
     text-align: center;
     display: flex; 
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
     flex-wrap: nowrap;
 }
 
@@ -413,8 +405,6 @@ h3 {
 
 .intro--title--container {
     width: 100%;
-    /* height: 80px; */
-    /* margin: auto; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -448,7 +438,20 @@ h3 {
     letter-spacing: 0.0938rem;
 }
 
+@media (max-width: 900px) {
+    .intro--title--conjunction {
+        margin: none;
+        width: 100%;
+        }
+    } 
 
+@media screen and (max-width: 800px) {
+    .intro--text--formatting {
+        font-size: 1.5rem;
+        line-height: 200%;
+    }
+
+}
 
 /*----------------------------*\
 #illustrations
