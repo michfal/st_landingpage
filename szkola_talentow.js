@@ -70,13 +70,14 @@ var navbarLinks = document.querySelector('.navbar--links--container')
 var burgerClickCount = 0;
 
 function menuUnwrap() {
-
-    if (burgerClickCount == 0) {
-        burgerClickCount = 1
-        navbarLinks.style.display = "flex";
-    } else if (burgerClickCount == 1){
-        burgerClickCount = 0
-        navbarLinks.style.display = "none";
+    if (screen.width < 800) {
+        if (burgerClickCount == 0) {
+            burgerClickCount = 1
+            navbarLinks.style.display = "flex";
+        } else if (burgerClickCount == 1){
+            burgerClickCount = 0
+            navbarLinks.style.display = "none";
+        }
     }
-
 }
+console.log(screen.width)
