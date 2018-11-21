@@ -8,7 +8,6 @@ function smoothScroll(target, duration) {
     var targetPosition = target.getBoundingClientRect().top;
     var startPosition = window.pageYOffset;
     var startTime = null;
-    console.log(target)
 
     function animation(currentTime) {
         if(startTime === null) startTime = currentTime;
@@ -80,4 +79,3 @@ function menuUnwrap() {
         }
     }
 }
-console.log(screen.width)
