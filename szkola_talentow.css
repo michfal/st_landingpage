@@ -510,6 +510,13 @@ h3 {
     margin-top: 10%;
 }
 
+.owls--contact {
+    width: 15%;
+    min-width: 12.125rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 @media (max-width: 800px) {
     .illustrations {
         display: none;
@@ -520,9 +527,9 @@ h3 {
 #contact
 \*----------------------------*/
 
-.section--contakt {
+.section--contact {
     width: 100%;
-    height: 30%;
+    min-height: 30%;
     float: left;
     color: #FFFFFF;
     background-color: #1D2E40;
@@ -537,14 +544,27 @@ h3 {
 
 .contact--info {
     width: 20rem;
-    height: 1.875rem;
+    height: 4rem;
     margin: auto;
-    margin-top: 3rem;
-    /* padding-left: 50px; */
     display: flex;
     align-items: center;
     font-size: 2rem;
-    
+    float: left; 
+    justify-content: center;
+}
+
+
+.contact--info--container {
+    min-width: 20rem;
+    width: 25%;
+    margin: auto;
+    min-height: 4rem;
+    background-color: #29435E;
+    padding: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contact--info--icon {
@@ -552,5 +572,4 @@ h3 {
     float: left;
     margin-right: 1.25rem;
 }
-
 
