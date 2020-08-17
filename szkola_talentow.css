@@ -573,3 +573,29 @@ h3 {
     margin-right: 1.25rem;
 }
 
+/*----------------------------*\
+#cookie message
+\*----------------------------*/
+
+.cookie_message {
+    position: fixed;
+    bottom: 0%;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(45, 40, 80, 0.8);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cookie_message--text {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 70%;
+}
+
+.cookie_message--button {
+    width: 10%;
+    color: rgba(45, 40, 80, 0.8);
+}

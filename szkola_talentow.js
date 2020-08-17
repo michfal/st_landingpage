@@ -79,3 +79,14 @@ function menuUnwrap() {
         }
     }
 }
+
+/*----------------------------*\
+#cookies message
+\*----------------------------*/
+
+const cookieMessageBtn = document.querySelector('.cookie_message--button');
+const cookieMessage = document.querySelector('.cookie_message');
+
+cookieMessageBtn.addEventListener('click', () => {
+    cookieMessage.style.display = "none";
+})
